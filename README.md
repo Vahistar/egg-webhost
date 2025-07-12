@@ -1,25 +1,49 @@
-# Pterodactyl Webhost Egg
+<p align="center">
+  <a href="https://github.com/YourVenoOrganization](https://github.com/veno-design">
+    <img src="https://media.discordapp.net/attachments/1393311228998189188/1393311249131114667/logo.png?ex=6872b5b8&is=68716438&hm=153c8db1241bb6003837f428be1e7e9e597e373b3c9119adbe3cefc824193239&=&format=webp&quality=lossless&width=2267&height=1272" alt="Nie Wczytuje Logo" width="200"/>
+  </a>
+</p>
 
-### How to Use:
-1. Download the JSON file from the releases page.
-2. Import the egg into your Pterodactyl panel.
-3. Create a new server. Optionally, enable WordPress during setup for automatic installation.
-4. You can also install Composer packages, either during the initial setup or afterward.
-5. Visit the provided IP and port to access the server. For WordPress, go to `http://ip:port/wp-admin`.
-6. To use a custom domain, create a reverse proxy on the host.
+# 🪶 Pelican Webhost Egg
+Prosty w instalacji Hosting WWW z opcjonalnym WordPressem 🚀
 
-### Disable Logs from Console:
-To remove access and error logs from the console, edit the Nginx configuration:
-- Navigate to `nginx/conf.d/default.conf`
-- Uncomment (remove the `#`) the following lines:
+### 🥚 O jajku
+Te jajko to **zmodyfikowany fork** oryginalnego [pterodactyl-nginx](https://gitlab.com/tenten8401/pterodactyl-nginx),
+który został **dostosowany** do działania z **Pelican Panelem**
 
-```
-#access_log /home/container/naccess.log;
-#error_log  /home/container/nerror.log error;
-```
+Zmieniono strukturę i konfigurację tak, aby w pełni współpracował z nowoczesnym środowiskiem Pelicana – nie jest to już egg dla Pterodactyla.
+
+### ✨ Co oferuje
+* 🌐 Gotowe środowisko NGINX + PHP
+* 📦 Automatyczna instalacja WordPress jednym kliknięciem
+* 🔀 Gotowość pod reverse proxy z własną domeną
+* 💡 Minimalna konfiguracja, maksymalna wygoda
+
+### 📎 Dodatkowe informacje
+* 🔒 Bezpieczne środowisko uruchomieniowe
+* 🧱 Idealny do hostowania:
+  * stron firmowych
+  * blogów
+  * prostych aplikacji
+  * landing pages
+* 🐘 Gotowość do rozszerzania przez paczki PHP i pluginy WP
 
 ---
 
-Originally forked and edited from [https://gitlab.com/tenten8401/pterodactyl-nginx](https://gitlab.com/tenten8401/pterodactyl-nginx)
+### 🔇 Wyłączenie logów z konsoli:
+Aby usunąć logi `access` i `error` z konsoli:
+1. Przejdź do pliku:
+```
+nginx/conf.d/default.conf
+```
 
-© Sigma Productions 2024
+2. Odkomentuj poniższe linie (usuń znak `#`):
+```nginx
+access_log /home/container/naccess.log;
+error_log  /home/container/nerror.log error;
+```
+
+---
+veno.design © 2025
+
+Z miłości do open-source i społeczności Pelicana 😍

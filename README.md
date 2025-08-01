@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/YourVenoOrganization](https://github.com/veno-design">
-    <img src="https://media.discordapp.net/attachments/1393311228998189188/1393311249131114667/logo.png?ex=6872b5b8&is=68716438&hm=153c8db1241bb6003837f428be1e7e9e597e373b3c9119adbe3cefc824193239&=&format=webp&quality=lossless&width=2267&height=1272" alt="Nie Wczytuje Logo" width="200"/>
+    <img src="https://cdn.discordapp.com/attachments/1393311228998189188/1393311249131114667/logo.png?ex=688e6538&is=688d13b8&hm=7321acdb9a0bd3343bf03a416beae0968b05dda236f9a149d1e9840b2de33a76&" alt="Nie Wczytuje Logo" width="200"/>
   </a>
 </p>
 

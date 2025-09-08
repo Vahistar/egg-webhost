@@ -1,10 +1,8 @@
 <p align="center">
-  <a href="https://github.com/YourVenoOrganization](https://github.com/veno-design">
-    <img src="https://cdn.discordapp.com/attachments/1393311228998189188/1393311249131114667/logo.png?ex=688e6538&is=688d13b8&hm=7321acdb9a0bd3343bf03a416beae0968b05dda236f9a149d1e9840b2de33a76&" alt="Nie Wczytuje Logo" width="200"/>
-  </a>
+  <img src="https://ptero.bitehost.me/extensions/resourcemanager/uploads/1757064370_logoB.png" alt="Nie Wczytuje Logo" width="200"/>
 </p>
 
-# 🪶 Pelican Webhost Egg
+# Pelican Webhost Egg
 Prosty w instalacji Hosting WWW z opcjonalnym WordPressem 🚀
 
 ### 🥚 O jajku
@@ -44,6 +42,6 @@ error_log  /home/container/nerror.log error;
 ```
 
 ---
-veno.design © 2025
+BiteHost™ © 2025
 
 Z miłości do open-source i społeczności Pelicana 😍
